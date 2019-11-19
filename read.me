@@ -1,0 +1,48 @@
+npm install codeceptjs --save
+
+npx codeceptjs init
+
+npx codeceptjs generate:test
+
+npx codeceptjs run
+
+
+Interactive shell can be started outside test context by running:
+npx codeceptjs shell
+
+
+0) npm init -y
+npm i @wdio/selenium-standalone-service --save
+npm install codeceptjs webdriverio --save-dev
+npm i rosie faker --save-dev
+npm install codeceptjs --save
+
+1) npx codeceptjs init
+npx codeceptjs gt
+
+Add to the condecept.conf.js
+exports.config = {
+  // ...
+  // inside condecept.conf.js
+  plugins: {
+    wdio: {
+      enabled: true,
+      services: ['selenium-standalone']
+    }
+  }
+}
+
+
+npx codeceptjs run --steps
+
+npx codeceptjs run --plugins allure
+allure serve output
+
+To see list of tests:
+npx codeceptjs dry-run
+npx codeceptjs dry-run --debug -p allure
+
+And final:
+ npx codeceptjs run --steps --plugins allure
+
+ npx codeceptjs run --grep "reg"

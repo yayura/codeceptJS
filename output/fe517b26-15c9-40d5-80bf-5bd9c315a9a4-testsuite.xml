@@ -1,0 +1,204 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1574165758458' stop='1574165772026'>
+    <name>Pub reg:</name>
+    <title>Pub reg:</title>
+    <test-cases>
+        <test-case start='1574165758458' status='passed' stop='1574165771898'>
+            <name>Publisher reg with paypal @C30</name>
+            <title>Publisher reg with paypal @C30</title>
+            <labels>
+                <label name='tag' value='@C30'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1574165764361' status='passed' stop='1574165765502'>
+                    <name>I am on page "http://beta.publishers.yyakovlev.developzilla.com/signup"</name>
+                    <title>I am on page "http://beta.publishers.yyakovlev.developzilla.com/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165765502' status='passed' stop='1574165765575'>
+                    <name>I see "Do you want to sell traffic from your Website"</name>
+                    <title>I see "Do you want to sell traffic from your Website"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165765575' status='passed' stop='1574165765631'>
+                    <name>I see "Name"</name>
+                    <title>I see "Name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165765631' status='passed' stop='1574165765691'>
+                    <name>I see "Email"</name>
+                    <title>I see "Email"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165765691' status='passed' stop='1574165765858'>
+                    <name>I fill field "Name", "Santina McClure"</name>
+                    <title>I fill field "Name", "Santina McClure"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165765858' status='passed' stop='1574165766087'>
+                    <name>I fill field "Email", "Kristy.Padberg@example.org"</name>
+                    <title>I fill field "Email", "Kristy.Padberg@example.org"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165766087' status='passed' stop='1574165766144'>
+                    <name>I see "By clicking CONTINUE you accept Terms &amp; Conditions and Privacy Policy"</name>
+                    <title>I see "By clicking CONTINUE you accept Terms &amp; Conditions and Privacy Policy"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165766145' status='passed' stop='1574165766464'>
+                    <name>I save screenshot "step1.png"</name>
+                    <title>I save screenshot "step1.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165766464' status='passed' stop='1574165766547'>
+                    <name>I click "Continue"</name>
+                    <title>I click "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165766547' status='passed' stop='1574165767121'>
+                    <name>I wait for text "Please fill in the required fields to create your account."</name>
+                    <title>I wait for text "Please fill in the required fields to create your account."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767121' status='passed' stop='1574165767186'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767186' status='passed' stop='1574165767273'>
+                    <name>I see "Password"</name>
+                    <title>I see "Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767273' status='passed' stop='1574165767464'>
+                    <name>I fill field "Login", "transmitting"</name>
+                    <title>I fill field "Login", "transmitting"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767465' status='passed' stop='1574165767620'>
+                    <name>I fill field "Messenger account", "transmitting"</name>
+                    <title>I fill field "Messenger account", "transmitting"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767620' status='passed' stop='1574165767738'>
+                    <name>I fill field "Password", "password"</name>
+                    <title>I fill field "Password", "password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767738' status='passed' stop='1574165767827'>
+                    <name>I click ".//div[starts-with(@id, 'undefined-undefined-Preferredpaysystem') ]"</name>
+                    <title>I click ".//div[starts-with(@id, 'undefined-undefined-Preferredpaysystem') ]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767827' status='passed' stop='1574165767919'>
+                    <name>I see "PayPal"</name>
+                    <title>I see "PayPal"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165767919' status='passed' stop='1574165768016'>
+                    <name>I click "//*[contains(text(),'PayPal')]"</name>
+                    <title>I click "//*[contains(text(),'PayPal')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768016' status='passed' stop='1574165768101'>
+                    <name>I see "PayPal"</name>
+                    <title>I see "PayPal"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768101' status='passed' stop='1574165768261'>
+                    <name>I fill field "websites", "http://josefa.info"</name>
+                    <title>I fill field "websites", "http://josefa.info"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768261' status='passed' stop='1574165768351'>
+                    <name>I wait for text "Account e-mail"</name>
+                    <title>I wait for text "Account e-mail"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768351' status='passed' stop='1574165768434'>
+                    <name>I see "Account e-mail"</name>
+                    <title>I see "Account e-mail"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768434' status='passed' stop='1574165768472'>
+                    <name>I clear field "Account e-mail"</name>
+                    <title>I clear field "Account e-mail"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768472' status='passed' stop='1574165768783'>
+                    <name>I fill field "Account e-mail", "Kristy.Padberg@example.org"</name>
+                    <title>I fill field "Account e-mail", "Kristy.Padberg@example.org"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768783' status='passed' stop='1574165768834'>
+                    <name>I clear field "websites"</name>
+                    <title>I clear field "websites"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165768835' status='passed' stop='1574165769040'>
+                    <name>I fill field "websites", "http://josefa.info"</name>
+                    <title>I fill field "websites", "http://josefa.info"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165769040' status='passed' stop='1574165769357'>
+                    <name>I save screenshot "step2.png"</name>
+                    <title>I save screenshot "step2.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165769357' status='passed' stop='1574165769432'>
+                    <name>I click "Complete Registration"</name>
+                    <title>I click "Complete Registration"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165769432' status='passed' stop='1574165771548'>
+                    <name>I wait for text "We've just sent a verification link to", 10</name>
+                    <title>I wait for text "We've just sent a verification link to", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165771548' status='passed' stop='1574165771607'>
+                    <name>I see "Kristy.Padberg@example.org"</name>
+                    <title>I see "Kristy.Padberg@example.org"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1574165771607' status='passed' stop='1574165771897'>
+                    <name>I save screenshot "complete.png"</name>
+                    <title>I save screenshot "complete.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

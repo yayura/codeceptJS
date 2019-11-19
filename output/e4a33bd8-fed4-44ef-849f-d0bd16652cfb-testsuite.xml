@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1574165901605' stop='1574165909922'>
+    <name>Pub login:</name>
+    <title>Pub login:</title>
+    <test-cases>
+        <test-case start='1574165903844' status='passed' stop='1574165909818'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
