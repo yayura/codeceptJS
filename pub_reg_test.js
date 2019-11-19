@@ -1,6 +1,5 @@
 
 var faker = require('faker');
-Feature('Pub reg');
 var randomName = faker.name.findName(); 
 var randomEmail = faker.internet.exampleEmail();
 var randomLogin = faker.random.word(); 
@@ -8,6 +7,7 @@ var randomSite = faker.internet.url();
 console.log('Name:'+ randomName+'   '+'Email:'+randomEmail);
 console.log('Login:'+ randomLogin+'   '+'Site:'+randomSite);
 
+Feature('Pub reg');
 // Before((I) => {
 //     I.amOnPage('/');
 //   });
