@@ -1,5 +1,5 @@
 exports.config = {
-  tests: './*_test.js',
+  tests: './tests/*_test.js',
   output: './output',
   helpers: {
     WebDriver: {
@@ -13,7 +13,9 @@ exports.config = {
     // }
   }
   },
-  include: {},
+  include: {
+    pubLogin: './pages/pubLogin.js',
+  },
   bootstrap: null,
   mocha: {},
   name: 'simple',
@@ -30,7 +32,7 @@ exports.config = {
       password: 'Zxc45648*',
       suiteId: 11,
       projectId: 7,
-      enabled: true
+      enabled: false
     }  
   }
 }
