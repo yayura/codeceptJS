@@ -10,8 +10,7 @@ Before(() => {
 });
 
 Scenario('Pub login', () => {
-    I.see(pubLogin.loginField);
-    pause();
+    I.see(pubLogin.loginField); 
     I.see('Password');
     I.fillField('Login',pub_login);
     I.fillField('Password',pub_password);

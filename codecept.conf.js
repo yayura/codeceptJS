@@ -4,13 +4,12 @@ exports.config = {
   helpers: {
     WebDriver: {
       url: 'http://localhost',
-      browser: 'chrome'
-      // ,
-    //   desiredCapabilities: {
-    //     chromeOptions: {
-    //       args: [ '--headless', '--disable-gpu', '--no-sandbox' ]
-    //     }
-    // }
+      browser: 'chrome',
+      desiredCapabilities: {
+        chromeOptions: {
+          args: [ '--headless', '--disable-gpu', '--no-sandbox' ]
+        }
+    }
   }
   },
   include: {
@@ -32,7 +31,7 @@ exports.config = {
       password: 'Zxc45648*',
       suiteId: 1,
       projectId: 1,
-      enabled: true
+      enabled: false
     }  
   }
 }
