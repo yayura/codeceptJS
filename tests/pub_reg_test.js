@@ -17,7 +17,7 @@ Feature('Pub reg');
 //     I.pressKey('Enter');
 //   }
 
-Scenario('Publisher reg with paypal @C30', (I) => {
+Scenario('Publisher reg with paypal @C466', (I) => {
 
  I.amOnPage('http://beta.publishers.yyakovlev.developzilla.com/signup');
     I.see('Do you want to sell traffic from your Website');
@@ -56,5 +56,6 @@ I.waitForText("We've just sent a verification link to",10);
  
   I.see(randomEmail);
   I.saveScreenshot('complete.png');
+  pause(); 
   
 });

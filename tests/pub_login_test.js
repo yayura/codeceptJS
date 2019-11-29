@@ -9,8 +9,6 @@ Before(() => {
     I.amOnPage(pub_url);
 });
 
-
-
 Scenario('Pub login', () => {
     I.see(pubLogin.loginField);
     pause();

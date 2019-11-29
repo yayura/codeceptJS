@@ -27,12 +27,12 @@ exports.config = {
     allure: {},
     testrail: {
       require: 'codeceptjs-testrail',
-      host: 'https://sftws.testrail.io',
-      user: 'adsyayura@gmail.com',
+      host: 'https://softwise.testrail.io/',
+      user: 'y.yakovlev@adsterratech.com',
       password: 'Zxc45648*',
-      suiteId: 11,
-      projectId: 7,
-      enabled: false
+      suiteId: 1,
+      projectId: 1,
+      enabled: true
     }  
   }
 }
