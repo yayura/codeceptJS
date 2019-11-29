@@ -27,8 +27,8 @@ exports.config = {
     testrail: {
       require: 'codeceptjs-testrail',
       host: 'https://softwise.testrail.io/',
-      user: 'y.yakovlev@adsterratech.com',
-      password: 'Zxc45648*',
+      user: '',
+      password: '',
       suiteId: 1,
       projectId: 1,
       enabled: false
